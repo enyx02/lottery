@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'margin simple squeeze foot brush since february guard coyote gallery soup sword',
+  'own 12 words code',
   // remember to change this to your own phrase!
   'https://mainnet.infura.io/v3/aacabe0ef13b4b42aaf802cfd43713ac'
   // remember to change this to your own endpoint!
