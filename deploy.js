@@ -3,9 +3,9 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'own 12 words code',
+  'your own 12 words metamask code',
   // remember to change this to your own phrase!
-  'https://mainnet.infura.io/v3/aacabe0ef13b4b42aaf802cfd43713ac'
+  'providers link'
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
